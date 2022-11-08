@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registarse</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="container">
+  <h2>Completa los siguientes datos para registrarte</h2>
+  <ion-img id="login" src="assets/images/login2.svg" ion-padding></ion-img>
+  <div class="container">
+    <ion-input class="log" type="text" placeholder="Ingresa Nombre de Usuario" click="login"></ion-input>
+    <ion-input  class="log" type="password" placeholder="Ingresa Contraseña"></ion-input>
+  </div>
+  <ion-button type="submit" color="primary"  routerLink ="/login" >Registrarse</ion-button>
+  <ion-button type="reset" color="danger" routerLink="/login">Cancelar
+  </ion-button>
+</ion-content>

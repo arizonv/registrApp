@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>RegistrAPP - Cambio de Constraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container-username">
+    <h3>Cambio de Contraseña</h3>
+    <small>Para cambiar tu contraseña completa los siguientes campos</small>
+  </div>
+
+  <div class="login">
+    <ion-item id="pass">
+      <ion-label></ion-label>
+      <ion-input id=""   [(ngModel)]="newPassword" type="Password" placeholder="Nueva Contraseña" ></ion-input>
+    </ion-item>
+
+    <ion-item id="pass">
+      <ion-label></ion-label>
+      <ion-input id=""   [(ngModel)]="confirmacionPass" type="Password" placeholder="Confirmacion Contraseña" ></ion-input>
+    </ion-item>
+
+  </div>
+
+  <div class="container">
+    <ion-button  class="btn-ingresar" type="submit" color="primary"  (click)="cambioPass()">
+    Restablecer Constraseña</ion-button>
+  </div>
+</ion-content>
